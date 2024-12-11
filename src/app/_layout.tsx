@@ -11,7 +11,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    SpaceMono: require("@/src/assets/fonts/Manrope-Regular.ttf"),
+    Manrope: require("@/src/assets/fonts/Manrope.ttf"),
   });
 
   useEffect(() => {
