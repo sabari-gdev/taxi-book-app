@@ -23,7 +23,7 @@ const Onboarding = () => {
     <SafeAreaView style={styles.container}>
       <TouchableOpacity
         onPress={() => {
-          router.replace("/(auth)/sign-in");
+          router.replace("/(auth)/sign-up");
         }}
         style={styles.skipOnboarding}
       >
